@@ -1,0 +1,78 @@
+body {
+    background-color: burlywood;
+}
+
+.Heading {
+    font-size: 30px;
+    text-align: center;
+    color: darkblue;
+    text-shadow: 1px 1px black;
+}
+
+.number-text {
+    position: fixed;
+    text-align: center;
+    right: 50%;
+    left: 50%;
+    width: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: rgb(222, 184, 135);
+    padding: 5px;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.caption-text {
+    position: fixed;
+    width: 70px;
+    bottom: 0%;
+    right: 50%;
+    text-align: center;
+    left: 50%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: rgb(222, 184, 135);
+    padding: 5px;
+    border-radius: 3px 3px 3px 3px;
+    ;
+}
+
+img {
+    margin-top: 40px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 40px;
+    width: 50%;
+}
+
+.Buttons {
+    cursor: pointer;
+}
+
+#Previous {
+    position: fixed;
+    padding: 5px;
+    left: 5px;
+    top: 50%;
+    font-size: 40px;
+    color: rgb(222, 184, 135);
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 3px 0 0 3px;
+}
+
+#Next {
+    position: fixed;
+    padding: 5px;
+    right: 5px;
+    top: 50%;
+    font-size: 40px;
+    font-size: 40px;
+    color: rgb(222, 184, 135);
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 3px 0 0 3px;
+}
+
+#Next:hover,
+#Previous:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}

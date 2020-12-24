@@ -1,0 +1,9 @@
+.menu>img {
+    float: left;
+    margin: 80px;
+    width: 500px;
+}
+
+.menu {
+    display: grid;   
+}

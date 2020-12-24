@@ -1,0 +1,38 @@
+body {
+    background-color: burlywood;
+}
+
+.tabs {
+    background-color: black;
+    border: 1px solid white;
+    overflow: hidden;
+}
+
+.tabs button {
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    background-color: inherit;
+    color: wheat;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+
+.tabs button:hover {
+    background-color: wheat;
+    color: black;
+    font-size: 20px;
+}
+
+.tabs button.active {
+    background-color: wheat;
+    color: black;
+}
+
+.tabContent>img {
+    max-width: 450px;
+    margin: 10px 10px 10px;
+}

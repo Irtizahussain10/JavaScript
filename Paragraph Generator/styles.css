@@ -1,0 +1,63 @@
+/* Styling the container */
+
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/* Styling the heading */
+
+#heading {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Dancing Script";
+}
+
+/*Styling the form*/
+
+form {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 3px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 30px;
+    display: inline;
+}
+
+.inputBox {
+    margin-left: 28%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#amount {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 3px;
+    border: none;
+    background-color: antiquewhite;
+    font-size: 30px;
+    padding: 2px;
+    margin-left: 14px;
+    margin-right: 13.25px;
+}
+
+#submit {
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    background-color: silver;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.paragraphHere {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Dancing Script";
+    margin-top: 10px;
+}

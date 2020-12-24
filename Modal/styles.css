@@ -1,0 +1,19 @@
+.modal {
+z-index: 1;
+}
+
+.modalContent {
+    display: none;
+    justify-content: space-around;
+    z-index: 1;
+    position: fixed;
+}
+
+.closeModal {
+    float: right;
+}
+
+img {
+    width: 200px;
+    padding: 20px;
+}

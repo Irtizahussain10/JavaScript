@@ -1,0 +1,67 @@
+ /* Giving a background color to entire page*/
+
+ body {
+     background-color: antiquewhite;
+ }
+
+ /* Setting the container */
+
+ .Container {
+     margin-left: 10%;
+     margin-right: 10%;
+     margin-top: 40px;
+     margin-bottom: 80px;
+ }
+
+ /* Setting the heading */
+
+ .Heading h1 {
+     text-align: center;
+     padding: 5px;
+     margin: 3px;
+     font-family: cursive;
+     color: rgba(0, 0, 0, 0.7);
+     text-shadow: 2px 2px rgba(0, 0, 0, 0.7);
+ }
+
+ /* Setting the questions */
+
+ .Question {
+     background-color: silver;
+ }
+
+ .Question>p {
+     display: flex;
+     line-height: 30px;
+     margin-top: 70px;
+     border-bottom: 0.5px solid black;
+     padding: 10px;
+     justify-content: space-between;
+     color: rgba(0, 0, 0, 0.7);
+ }
+
+ /* Styling the buttons */
+
+ button {
+     background-color: inherit;
+     cursor: pointer;
+     border: none;
+     color: black;
+     font-weight: bolder;
+     font-size: medium;
+ }
+
+ button:active,
+ button:hover {
+     background-color: rgba(192, 192, 192, 0.192);
+ }
+
+ /* Styling the images */
+
+ .Answer {
+     width: 50%;
+     margin-top: 10px;
+     margin-left: 25%;
+     margin-right: 25%;
+     padding-bottom: 10px;
+ }

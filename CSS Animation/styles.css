@@ -1,0 +1,25 @@
+.box {
+    width: fit-content;
+    margin: auto;
+    margin-top: 20%;
+}
+
+img {
+    animation-name: alice;
+    animation-duration: 3s;
+    fill: wheat;
+}
+
+@keyframes alice {
+    0% {
+        transform: rotate(0) ;
+        color: blueviolet;
+    }
+    30% {
+      
+        color: black;   
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
